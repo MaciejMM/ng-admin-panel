@@ -1,0 +1,53 @@
+@import "../../../styles.scss";
+header{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  // background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between ;
+
+  .title{
+    font-size: 18px;
+  }
+  .l-side,.r-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .l-side{
+
+
+    .counter{
+      font-size: 12px;
+      margin-left: 20px;
+      color: $gunmetal;
+    }
+  }
+
+
+  .r-side{
+    .selected{
+      margin: 0 10px;
+      font-size: 12px;
+      // margin-left: 20px;
+      color: $engineering;
+    }
+
+    .btn-delete{
+      margin: 0 10px;
+      background-color: $engineering;
+    }
+
+    .search{
+      width: 250px;
+      padding-left: 10px;
+    }
+  }
+
+
+}
